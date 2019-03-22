@@ -7,7 +7,7 @@
 #' @examples
 #' listpackages()
 
-listpackages <- function(version=3.4){
+listpackages <- function(version){
 ## Get currently installed packages (previous version)
 
 versionpath <- paste0("~/R/x86_64-redhat-linux-gnu-library/", version, "/")
